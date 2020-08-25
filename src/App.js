@@ -1,23 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import CounterInput from './component/CounterInput';
+import CounterOutput from './component/CounterOutput';
 function App() {
   return (
     <div className="App">
+      <h1>CounterApp using Redux!</h1>
+      <h6>CREATED BY SUBHAN KHALID </h6>
+      <h4>BootCamp2020</h4>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+
+      <CounterOutput/>
+<br/> <br/> 
+       <CounterInput/>
+      
       </header>
     </div>
   );
